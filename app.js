@@ -1,7 +1,5 @@
 let dados= [{id: 1 , numero: '55', rua: 'João Holzmann' }]
 
-let adicionar = require('./geral')
-
 function processar(requisisao){
     let {acao, ID, numero, rua}= requisisao
     switch(acao){
